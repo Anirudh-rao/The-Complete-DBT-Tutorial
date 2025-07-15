@@ -1,0 +1,29 @@
+[0m16:44:03.137218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001929328F5B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192945EFBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192954C79A0>]}
+
+
+============================== 16:44:03.142219 | b3a2427c-662e-466a-87b3-56b1cfe741d5 ==============================
+[0m16:44:03.142219 [info ] [MainThread]: Running with dbt=1.10.4
+[0m16:44:03.143219 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\EL477YC\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt init dbtlearn', 'send_anonymous_usage_stats': 'True'}
+[0m16:44:03.171853 [debug] [MainThread]: Starter project path: C:\Users\EL477YC\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m16:44:03.273077 [info ] [MainThread]: 
+Your new dbt project "dbtlearn" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:44:03.274077 [info ] [MainThread]: Setting up your profile.
+[0m16:45:53.503475 [info ] [MainThread]: Profile dbtlearn written to C:\Users\EL477YC\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:45:53.505453 [debug] [MainThread]: Command `dbt init` succeeded at 16:45:53.505453 after 110.55 seconds
+[0m16:45:53.507355 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001929328F5B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192954C7D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019295584820>]}
+[0m16:45:53.508350 [debug] [MainThread]: Flushing usage events
+[0m16:45:54.823684 [debug] [MainThread]: An error was encountered while trying to flush usage events
