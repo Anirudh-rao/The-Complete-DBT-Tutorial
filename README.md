@@ -34,6 +34,7 @@ role , warehouse and assiging all the privileges to the required custom role.
 7. Once activate run the following command in the terminal : `pip install -r requirment.txt`. This will install all the necessary packages.
 
 8. To Create a db folder
+    
     a. On mac : 
         
         1. create directory using `mkdir ~/.dbt`
@@ -54,7 +55,7 @@ role , warehouse and assiging all the privileges to the required custom role.
 
     b. On windows:
         
-        1. Create directory using `mkdir %userprofile%\.dbt
+        1. Create directory using `mkdir %userprofile%\.dbt`
         
         2. use `dbt init <ProjectName>` to create a intial dbt-starting folder
         
