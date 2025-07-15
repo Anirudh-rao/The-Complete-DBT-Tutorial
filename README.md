@@ -87,6 +87,4 @@ role , warehouse and assiging all the privileges to the required custom role.
 
     b. paths - link to that respective folders
 
-    c. clean-targets :
 
-    
