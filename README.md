@@ -51,7 +51,7 @@ role , warehouse and assiging all the privileges to the required custom role.
         
         7. Once completed cd into the new created `dbt-learn` folder and run `dbt-debug`
         
-        8. You should see that all **checks are passed**.
+        8. You should see that all 'checks are passed'.
 
     b. On windows:
         
