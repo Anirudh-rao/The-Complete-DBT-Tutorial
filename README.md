@@ -76,3 +76,17 @@ role , warehouse and assiging all the privileges to the required custom role.
 1. The setup is same for all the platforms 
 
 2. For this Project I have my project name as `dbtlearn`.
+
+
+
+## Project Structure:
+
+1. dbt_project.yml - main file of the project . Inside
+    
+    a. Name , version , profile - The main heading of the project
+
+    b. paths - link to that respective folders
+
+    c. clean-targets :
+
+    
