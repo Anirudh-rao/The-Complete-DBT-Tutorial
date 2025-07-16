@@ -33,4 +33,13 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbtlearn:
     # Config indicated by + and applies to all files under models/example/
-    
+    +materialized: view
+    dim:
+      +materialized: table
+      +schema: 'clean'
+    fct:
+      +materialized: incremental
+      +schema: 'clean'
+    src:
+      +materialized: ephemeral
+      +schema: 'raw'
