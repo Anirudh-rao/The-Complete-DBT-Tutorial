@@ -77,6 +77,8 @@ role , warehouse and assiging all the privileges to the required custom role.
 
 2. For this Project I have my project name as `dbtlearn`.
 
+3. We have also installed a extension in vs-code called `Power User for DBT`.
+
 
 
 ## Project Structure:
