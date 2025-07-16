@@ -43,3 +43,6 @@ models:
     src:
       +materialized: ephemeral
       +schema: 'raw'
+    seed:
+      +schema: 'clean'
+      +materialized: table
