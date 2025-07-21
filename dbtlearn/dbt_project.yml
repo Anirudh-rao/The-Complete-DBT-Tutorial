@@ -25,13 +25,6 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
-sources:
-  - name: src_hosts
-    tables:
-      - name: hosts
-  - name: src_listings
-    tables:
-      - name: listings
 
 
 # Configuring models
